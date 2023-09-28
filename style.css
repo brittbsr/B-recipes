@@ -61,9 +61,75 @@ h4{
     color: white;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 35px;
 }
 p{
     color: white;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+}
+.concept{
+    margin-bottom: 60px;
+}
+.food-left{
+    color: white;
+    font-weight: 100;
+    text-align: left;
+}
+
+.food-right{
+    color: white;
+    font-weight: 100;
+    text-align: right;
+
+}
+
+.text-left{
+    color: white;
+    font-weight: 100;
+    text-align: left;
+}
+
+.text-right{
+    color: white;
+    font-weight: 100;
+    text-align: right;
+}
+
+div{
+    background-color: antiquewhite;
+    width: 300px;
+    height: 300px;
+}
+
+.img{
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-bottom: 30px;
+}
+
+.img2{
+    float: right;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.footer{
+    text-align: bottom;
+}
+
+.list-right{
+    text-align: right;
+    list-style-position: inside;
+    color: white;
+    font-weight: 100;
+}
+
+.list-left{
+    text-align: left;
+    list-style-position: inside;
+    color: white;
+    font-weight: 100;
 }
