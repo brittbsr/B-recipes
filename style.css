@@ -5,6 +5,7 @@
     font-family: cursive;
 }
 
+
 body {
     width: 90%;
     margin: 0 auto;
@@ -45,7 +46,7 @@ body {
 }
 
 .concept {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .container {
@@ -74,61 +75,128 @@ body {
     padding-bottom: 15px;
 }
 
-h1{
+h1 {
     color: white;
     font-weight: 100;
     text-align: center;
     font-size: 50px
 }
 
-h2{
+h2 {
     color: white;
     font-weight: 100;
     text-align: center;
 }
 
-h4{
+
+h4 {
     color: white;
+    font-weight: 100;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     margin-bottom: 10px;
 }
 
-p{
+p {
     color: white;
+    font-weight: 100;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
 
-
-.food-left {
-    color: white;
-    font-weight: 100;
+.overzicht {
+    font-weight: 200;
     text-align: left;
+    padding-left: 10px;
 }
 
-.food-right {
-    color: white;
-    font-weight: 100;
-    text-align: right;
-
+.wrapper {
+    display: flex;
+    flex-direction: row;
 }
 
-.text-left {
-    color: white;
-    font-weight: 100;
-    text-align: left;
+.overzicht-tekst {
+    color: #806987;
 }
 
-.text-right {
-    color: white;
-    font-weight: 100;
-    text-align: right;
+.container-overzicht {
+    background-color: antiquewhite; 
+    width: 300px;
+    height: 600px;
+}
+
+.container-image{
+    background-color: white;
+    height: 500px;
+    margin: 15px;
+    background-size:cover
+}
+
+.gerecht1 {
+    background-image: url(./img/springroll.jpg);
+/* https://nl.pinterest.com/pin/603623156329017644/ */
+}
+
+.gerecht2 {
+    background-image: url(./img/dip.jpg);
+    /* https://nl.pinterest.com/pin/603623156329017644/ */
 }
 
 
-.footer {
+.gerecht3 {
+    background-image: url(./img/pan.jpg);
+    /* https://nl.pinterest.com/pin/603623156329017644/ */
+}
+
+
+.gerecht4 {
+    background-image: url(./img/salmondinner.jpg);
+    /* https://nl.pinterest.com/pin/603623156329017644/ */
+}
+
+
+.gerecht5 {
+    background-image: url(./img/chickenpasta.jpg);
+    /* https://nl.pinterest.com/pin/603623156329017644/ */
+}
+
+
+.gerecht6 {
+    background-image: url(./img/chickenrice.jpg);
+    /* https://nl.pinterest.com/pin/603623156329017644/ */
+}
+
+
+.gerecht7 {
+    background-image: url(./img/chickenburrito.jpg);
+    /* https://nl.pinterest.com/pin/603623156329017644/ */
+}
+
+
+.gerecht8 {
+    background-image: url(./img/egg.jpg);
+    /* https://nl.pinterest.com/pin/603623156329017644/ */
+}
+
+
+.gerecht9 {
+    background-image: url(./img/meat.jpg);
+    /* https://nl.pinterest.com/pin/603623156329017644/ */
+}
+
+
+
+.wrapper .container-overzicht  {
+    width: 100%;
+}
+
+* img {
+    max-width: 100%;
+}
+
+footer {
     text-align: bottom;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
 }
-
-
