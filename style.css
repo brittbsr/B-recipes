@@ -7,7 +7,7 @@
 
 
 body {
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
     background-color: #8AB17D;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -57,6 +57,7 @@ body {
     align-items: center;
     text-align: center;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .container .box {
@@ -211,6 +212,51 @@ p {
     transition: all 1s ease;
 }
 
+.about1 {
+    padding: 10px 15px;
+    background-color: #8AB17D;
+}
+
+.about2 {
+    padding: 10px 15px;
+    background-color: #789b6c;
+}
+
+.about3 {
+    padding: 10px 15px; 
+    background-color: #8AB17D;
+}
+
+.about-p {
+    text-align: left;
+}
+
+.about-text {
+    text-align: left;
+}
+
+.loempias1 {
+    text-align: left;
+    margin: 10px 10px;
+}
+
+ul {
+    color: antiquewhite;
+    margin: 0px 0px 10px 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ol {
+    color: antiquewhite;
+    margin: 0px 0px 10px 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.loempias2 {
+    text-align: left;
+    margin: 10px 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
 
 footer {
     text-align: bottom;
@@ -219,3 +265,4 @@ footer {
     font-family: 'Times New Roman', Times, serif;
     padding-top: 15px;
 }
+
