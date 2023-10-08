@@ -19,6 +19,7 @@ body {
     margin-top: 25px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .right-side, .left-side {
@@ -55,6 +56,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .container .box {
@@ -76,21 +78,21 @@ body {
 }
 
 h1 {
-    color: white;
+    color: antiquewhite;
     font-weight: 100;
     text-align: center;
     font-size: 50px
 }
 
 h2 {
-    color: white;
+    color: antiquewhite;
     font-weight: 100;
     text-align: center;
 }
 
 
 h4 {
-    color: white;
+    color: antiquewhite;
     font-weight: 100;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
@@ -98,7 +100,7 @@ h4 {
 }
 
 p {
-    color: white;
+    color: antiquewhite;
     font-weight: 100;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
@@ -107,7 +109,7 @@ p {
 .overzicht {
     font-weight: 200;
     text-align: left;
-    padding-left: 10px;
+    padding: 20px 0px 0px 10px
 }
 
 .wrapper {
@@ -115,21 +117,25 @@ p {
     flex-direction: row;
 }
 
-.overzicht-tekst {
+.gerechten-tekst {
+    font-family: 'Times New Roman', Times, serif;
     color: #806987;
+    text-align: center;
+    padding: 0px 0px 20px 15px;
 }
 
 .container-overzicht {
     background-color: antiquewhite; 
     width: 300px;
     height: 600px;
+    margin: 10px;
+    border-radius: 15px;
 }
 
-.container-image{
-    background-color: white;
+.container-image {
     height: 500px;
     margin: 15px;
-    background-size:cover
+    background-size: cover
 }
 
 .gerecht1 {
@@ -185,18 +191,31 @@ p {
 }
 
 
-
 .wrapper .container-overzicht  {
     width: 100%;
 }
 
-* img {
-    max-width: 100%;
+.container-overzicht a {
+    background-color: #806987;
+    color: antiquewhite;
+    padding: 10px 15px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
 }
+
+.container-overzicht:hover {
+    background-color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
 
 footer {
     text-align: bottom;
     color: white;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+    padding-top: 15px;
 }
